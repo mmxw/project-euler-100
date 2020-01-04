@@ -7,8 +7,8 @@
 
 function fiboEvenSum(n) {
   let evenSum = 0
-  let fibNum = fib(n-1)
-  for (let num of fibNum) {
+  let fibNumArr = fib(n-1)
+  for (let num of fibNumArr) {
    switch(true) {
      case num % 2 === 0: 
       evenSum = evenSum + num
