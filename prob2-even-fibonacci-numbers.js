@@ -30,6 +30,8 @@ function fib(n) {
   return fibNumArr
 }
 
+fiboEvenSum(10)
+
 
 //* TEST
 // fiboEvenSum(10) should return 44.
